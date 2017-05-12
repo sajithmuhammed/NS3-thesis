@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <vType accel="3.0" decel="6.0" id="CarA" length="5.0" minGap="0" maxSpeed="30.0" sigma="0" />
+  <vType accel="2.0" decel="6.0" id="CarB" length="7.5" minGap="0" maxSpeed="50.0" sigma="0" />
+  <vType accel="1.0" decel="5.0" id="CarC" length="5.0" minGap="0" maxSpeed="20.0" sigma="0" />
+  <vType accel="1.0" decel="5.0" id="CarD" length="7.5" minGap="0" maxSpeed="30.0" sigma="0" />
+
+  <route id="route01" edges="D2 L2 "/>
+  
+
+    <vehicle depart="0" id="veh0" route="route01" departPos="72"  departLane="1"  arrivalLane="1" departSpeed="0"  type="CarA"  color="0,0,1" /> 
+
+  <vehicle depart="0" id="veh1" route="route01" departPos="64"  departLane="1"  arrivalLane="1" departSpeed="0" type="CarA"  color="0,1,1" /> 
+
+  <vehicle depart="0" id="veh2" route="route01" departPos="56"  departLane="1"  arrivalLane="1" departSpeed="0"  type="CarA" color="0,0,1" /> 
+
+  <vehicle depart="0" id="veh3" route="route01" type="CarA" departLane="1"  arrivalLane="1" departPos="48"  departSpeed="0"  color="0,1,1" /> 
+
+  <vehicle depart="0" id="veh4" route="route01" departPos="40"  departLane="1"  arrivalLane="1" departSpeed="0"  type="CarA" color="0,0,1" /> 
+
+  <vehicle depart="0" id="veh5" route="route01" type="CarA" departLane="1"  arrivalLane="1" departPos="32"  departSpeed="0"  color="0,1,1" /> 
+
+  <vehicle depart="0" id="veh6" route="route01" departPos="24"  departLane="1"  arrivalLane="1" departSpeed="0"  type="CarA"  color="0,0,1" /> 
+<!--
+ <vehicle depart="0" id="veh4" route="route01" departLane="1" departPos="0"  departSpeed="0" type="CarA" /> 
+  <vehicle depart="0" id="veh5" route="route01" type="CarA" departLane="1"  departPos="10"  departSpeed="0"  color="1,0,0" /> 
+  <vehicle depart="0" id="veh6" route="route01" type="CarA" departLane="1"  arrivalLane="1" departPos="20"  departSpeed="0"   color="1,0,0" /> 
+  <vehicle depart="0" id="veh7" route="route01" type="CarA" departLane="1"  arrivalLane="1" departPos="30"  departSpeed="0"  color="1,0,0" /> 
+  <vehicle depart="0" id="veh8" route="route01" type="CarA" departLane="1"  arrivalLane="1" departPos="40"  departSpeed="0"  color="1,0,0" /> 
+  <vehicle depart="0" id="veh9" route="route01" type="CarA" departLane="1"  arrivalLane="1" departPos="50"  departSpeed="0"   color="1,0,0" /> 
+  <vehicle depart="0" id="veh4" route="route01" departLane="1" departPos="0"  departSpeed="random" type="CarA" /> 
+  <vehicle depart="0" id="veh5" route="route01" type="CarB" departLane="10"  arrivalLane="0" departPos="random"  departSpeed="random"  color="1,0,0" /> 
+  <vehicle depart="0" id="veh6" route="route01" type="CarB" departLane="20"  arrivalLane="0" departPos="random"  departSpeed="random"   color="1,0,0" /> 
+  <vehicle depart="0" id="veh7" route="route01" type="CarB" departLane="30"  arrivalLane="0" departPos="random"  departSpeed="random"  color="1,0,0" /> 
+  <vehicle depart="0" id="veh8" route="route01" type="CarB" departLane="40"  arrivalLane="0" departPos="random"  departSpeed="random"  color="1,0,0" /> 
+  <vehicle depart="0" id="veh9" route="route01" type="CarB" departLane="50"  arrivalLane="0" departPos="random"  departSpeed="random"   color="1,0,0" /> 
+   -->
+  
+
+</routes>

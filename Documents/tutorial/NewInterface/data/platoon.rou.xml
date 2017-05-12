@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <vType accel="3.0" decel="1.0" id="CarA" length="5.0" minGap="0.0" maxSpeed="50.0" sigma="0.5" />
+ 
+<vType accel="6.0" decel="1.0" id="CarB" length="7.5" minGap="0.0" maxSpeed="50.0" sigma="0.5" />
+ <!--
+  <vType accel="1.0" decel="5.0" id="CarC" length="5.0" minGap="2.5" maxSpeed="40.0" sigma="1.0" />
+  <vType accel="1.0" decel="5.0" id="CarD" length="7.5" minGap="2.5" maxSpeed="30.0" sigma="1.0" />
+-->
+  <route id="route01" edges="D2"/>
+
+  <vehicle depart="0" id="veh0" route="route01" departPos="35"  departSpeed="0"  type="CarA"  color="0,0,0" /> 
+
+  <vehicle depart="0" id="veh1" route="route01" departPos="25"  departSpeed="0" type="CarA"  color="0,0,0" /> 
+
+  <vehicle depart="0" id="veh2" route="route01" departPos="15"  departSpeed="0"  type="CarA" color="0,0,0" /> 
+
+  <vehicle depart="0" id="veh3" route="route01" type="CarA" departPos="5"  departSpeed="0"  color="0,0,0" /> 
+
+<!-- 
+  <vehicle depart="0" id="veh4" route="route01" departLane="1" departPos="random"  departSpeed="random" type="CarA" /> 
+  <vehicle depart="0" id="veh5" route="route01" type="CarB" departLane="0"  arrivalLane="0" departPos="random"  departSpeed="random"  color="1,0,0" /> 
+  <vehicle depart="0" id="veh6" route="route01" type="CarB" departLane="0"  arrivalLane="0" departPos="random"  departSpeed="random"   color="1,0,0" /> 
+  <vehicle depart="0" id="veh7" route="route01" type="CarB" departLane="0"  arrivalLane="0" departPos="random"  departSpeed="random"  color="1,0,0" /> 
+  <vehicle depart="0" id="veh8" route="route01" type="CarB" departLane="0"  arrivalLane="0" departPos="random"  departSpeed="random"  color="1,0,0" /> 
+  <vehicle depart="0" id="veh9" route="route01" type="CarB" departLane="0"  arrivalLane="0" departPos="random"  departSpeed="random"   color="1,0,0" /> 
+   -->
+  
+
+</routes>
